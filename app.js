@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const _ = require("lodash");
 
 const app = express();
-mongoose.connect("mongodb+srv://admin-kazim:test123@cluster0.rkx7a2k.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://admin:admin@cluster0.2micn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 app.set('view engine', 'ejs');
 
